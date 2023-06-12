@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #5C463C 0%,
+        #5C463C 50%,
+        #FBF4F9 50%,
+        #FBF4F9 100%
+    );
+}
+
+#logo{
+    width: 140px;
+    margin: 5px;
+}
+
+.profile{
+    margin-right: 3%;
+    transform: translateX(35%);
+}
+
+#side{
+    width: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+#center{
+    margin-top: 8px;
+}
+
+#left{
+    color:white;
+}
+
+#right{
+    color:#5C463C;
+}
+
+button{
+    background: transparent;
+    border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a{
+    font-size: 20px;
+    font-weight: 100px;
+    width:15%;
+    text-decoration: none;
+}
+
+#explore{
+    background: #FBF4F9;
+    padding: 10px;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#btn2{
+    color: #5C463C;
+    font-size: 23px;
+}
+
+h1,p{
+    font-family: Arial;
+    color: #FBF4F9;
+    justify-content: center;
+    font-size:30px;
+}
+
+h1{
+    font-size: 95px;
+}
+
+#rcake{
+    width: 800px;
+    transform: translateY(-10%);
+}
+
+#lside, #rside{
+    width: 50%;
+}
+
+article{
+    margin-left: 70px;
+    margin-top: 20%;
+}
+
+#btn1 #left:hover{
+    border: 0;
+    border-bottom-width: 5px;
+    border-color: #FBF4F9;
+    border-style: solid;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#btn1 #right:hover{
+    border: 0;
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: #5C463C;
+    border-style: solid;
+    padding-bottom: 5px;
+}
+
+#explore:hover{
+    background: #E3C7B1;
+    box-shadow: #FBF4F9;
+}
+
+#side:hover{
+    border: 0;
+    border-style: solid;
+    border-bottom-width:5px ;
+    padding-bottom: 5px;
+    border-color: #5C463C;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
